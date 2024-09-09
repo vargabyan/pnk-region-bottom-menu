@@ -65,6 +65,7 @@ table {
     margin-right: auto;
     margin-left: auto;
     background: #1F1F1F;
+    z-index: 9;
 }
 
 .bottom-menu-link-wrapper {
