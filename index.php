@@ -10,14 +10,20 @@
 </head>
 <body>
 
-<section class="bottom-menu">
-    <div class="bottom-menu-link-wrapper">
-        <a class="bottom-menu_link icon-tel" href="tel:8 800 222 02 55"><span>8 800 222 02 55</span></a>
-        <a class="bottom-menu_link icon-mail" href="mailto:pokupka@опора-москвы.рф"><span>pokupka@опора-москвы.рф</span></a>
-        <a class="bottom-menu_link icon-whatsapp" href=""></a>
+<section class="bottom-menu-wrapper">
+    <div class="bottom-menu open" data-bottom-menu>
+        <div class="bottom-menu-link-wrapper">
+            <a class="bottom-menu_link icon-tel" href="tel:8 800 222 02 55"><span>8 800 222 02 55</span></a>
+            <a class="bottom-menu_link icon-mail" href="mailto:pokupka@опора-москвы.рф"><span>pokupka@опора-москвы.рф</span></a>
+    <!--        <a class="bottom-menu_link icon-whatsapp" href=""></a>-->
+        </div>
+        <button class="bottom-menu_btn-request-kp">Запрос КП</button>
+        <button class="bottom-menu_btn-close" data-buton-close-bottom-menu></button>
     </div>
-    <button class="bottom-menu_ntm-request-kp">Запрос КП</button>
 </section>
+<button class="bottom-menu_btn-open" data-buton-open-bottom-menu>Оставить заявку</button>
 
+
+<script src="scripts.js"></script>
 </body>
 </html>
